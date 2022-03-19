@@ -1,0 +1,63 @@
+#subscriber{
+  background: #f7f7f7;
+  padding: 60px calc((100% - 960px)/2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#subscriber > div{
+  flex: 1 1 260px;
+  margin: 0 10px;
+}
+
+#subscriber h2{
+  font-size: 3em;
+  color: #a4a4a4;
+}
+
+#subscriber p {
+  font-size: 1.25em;
+  font-style: italic;
+  max-width: 13ch;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+}
+
+#subscriber form{
+  flex: 2 1 200px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#subscriber input{
+  flex: 3 1 260px;
+  font-size: 1.25em;
+  color: #7c7c7c;
+  font-style: italic;
+  border: 4px solid var(--b2);
+  background: transparent;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px;
+}
+
+#subscriber button{
+  flex: 1 1 200px;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--b2);
+  color: var(--w);
+  border: none;
+  margin: 0px;
+  cursor: pointer;
+  padding: 15px 10px
+}
+
+@media (max-width:600px) {
+  #subscriber button{
+    font-size: 1.5em;
+  }
+}

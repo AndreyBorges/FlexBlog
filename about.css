@@ -1,0 +1,30 @@
+#about {
+  border-top: 2px solid var(--b1);
+  border-bottom: 2px solid var(--b1);
+  max-width: var(--mw);
+  margin: 0px auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aboutText {
+  flex: 2 1 300px;
+  padding: 10px;
+}
+.aboutText h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.aboutText p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.aboutImg {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}

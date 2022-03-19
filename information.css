@@ -1,0 +1,41 @@
+.infosList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--mw);
+  margin: 60px auto;
+}
+
+.infosList li {
+  flex: 1 1 calc(33.333% - 20px);
+  margin: 20px 10px;
+}
+
+.infosList h2 {
+  color: #a4a4a4;
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.infosList h2::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.infosList :nth-of-type(3n + 1) h2::before {
+  background:#ae81ff;
+}
+.infosList :nth-of-type(3n + 2) h2::before {
+  background: #f9265e;
+}
+.infosList :nth-of-type(3n + 3) h2::before {
+  background: #66d9eb;
+}
+
+.infosList p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: #7c7c7c;
+}
